@@ -165,6 +165,7 @@ button {
     padding-bottom: 115px;
     background: url('img/back.png') no-repeat center;
     background-size: cover;
+    position: relative;
 }
 
 .about__image {
@@ -479,5 +480,12 @@ footer {
 .promo__card button i{
     font-size: 15px;
     margin-left: 5px;
+}
+
+.orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 
