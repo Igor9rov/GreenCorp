@@ -8,7 +8,6 @@ function increaseNumberAnimationStep (i, element, endNumber) {
         } else {
             element.innerText = i;
         }
-
         i+=100;
 
         setTimeout(function() {
